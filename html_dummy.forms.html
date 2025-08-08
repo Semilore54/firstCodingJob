@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="myCSS.css">
+
+<head>
+    <title> HTML dummy forms </title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(red, green, blue);
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .item {
+            background-color: lightblue;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2 style="color: #006400;">Welcome To My Programming School</h2>
+    <hr>
+    <div class="container">
+        <div class="card">Personal Information</div>
+        <div class="learning stackk">Learning stack</div>
+        <div class="Additional Information">Additional Information</div>
+        <div class="Parents">Parents Or Guardians</div>
+        <div class="Reference">References</div>
+        <div class="Relationship With Student">Relationship With Student</div>
+        <div class="Payments">Payment Details</div>
+        <div class="T&C">Terms And Conditions</div>
+    </div>
+    <!-- <div class="nav container" id = "nav container">
+    <nav>
+        <ul>
+            <li><a href = "#Namaee">Personal Information</a></li>
+            <li><a href = "#Learning stack">Learning Stack</a></li>
+            <li><a href = "#Additionall"></a>Additional Information</li>
+            <li><a href = "#P"></a>Parents Or Guardians</li>
+            <li><a href = "#ref"></a>References</li>
+            <li><a href = "#Relationship With Studentt"></a>Relationship With Student</li>
+            <li><a href = "#Payment"></a>Payment Details</li>
+            <li><a href = "#Terms"></a>Terms And Conditions</li>
+        </ul>
+    </nav>
+    </div> -->
+    <p> This Form Will Collect Your Information let Your Information Be True </p>
+    <hr>
+    <!-- -->
+    <form>
+        <div class="name" id="namee">
+            <fieldset id="Namaee" class="Card">
+                <legend required>Personal Information:</legend>
+                <label for="FullName">Enter Your FullName</label>
+                <input type="text" id=" Name" class="FullName" name="fullName" placeholder="Surname, First Other"
+                    required>
+
+                <!-- Please Enter Your Matrix No --><br>
+                <label for="Matrix no">Enter Your Matrix no</label>
+                <input type="text" id="Matrix No0" class="Matrix No" placeholder="Matrix No" required>
+
+                <!-- Please Enter Your Email Address --><br><br>
+                <label for="Emailaddress">Enter Your Email address</label>
+                <input type="text" id="Emailaddresss" class="Emailaddress" placeholder="XYZ@gmail.com" required>
+
+                <!-- Please Enter Your Department --><br><br>
+                <label for="Department">Enter Your Department</label>
+                <input type="text" id="Departmentt" class="Department" placeholder="Your Department" required>
+
+                <!-- Please Enter Your Phone No --><br><br>
+                <label for="Phone No">Enter Your Phone no</label>
+                <input type="text" id="Phone Noo" class="Phone No" placeholder="Phone No" required>
+
+                <!-- Please Enter Your Room No--><br><br>
+                <label for="Room No">Room No</label>
+                <input type="text" id="Room Noo" class="Room No" placeholder="Enter Your Room No">
+
+                <!-- Please Enter Your Hostel  --><br><br>
+                <label for="Hostel">Enter Your Hostel</label>
+                <select id="Hostel" Name="Hostel" required>
+                    <option value="Choose Your Hostel">Empty</option>
+                    <option value="Peter">Peter Hall</option>
+                    <option value="John">John Hall</option>
+                    <option value="Daniel">Daniel Hall</option>
+                    <option value="Joseph">Joseph Hall</option>
+                    <option value="Paul">Paul Hall</Option>
+                    <option value="Lydia">Lydia Hall</option>
+                    <option value="Dorcas">Dorcas Hall</option>
+                    <option value="Deborah">Deborah Hall</option>
+                    <option value="Esther">Esther Hall</option>
+                    <option value="Mary">Mary Hall</option>
+                </select>
+
+                <p required>Please Select Your Gender</p>
+                <input type="radio" id="Malee" name="Gender" class="Gender">
+                <label for="Gender">Male</label><br>
+
+                <input type="radio" id="Female" name="Gender" class="Gender">
+                <label for="Gender">Female</label><br><br>
+
+                <label for="DOB">Date Of Birth</label>
+                <input type="date" id="DOB" class="DOB" placeholder="DOB" required>
+
+
+            </fieldset><br><br>
+
+            <fieldset>
+                <!-- Please Enter Your Learning stack -->
+                <legend required> Learning Stack</legend>
+                <select id="Learning stack" name="learning stackk" class="learning stackk" required>
+                    <option value="select a stack">Empty </option>
+                    <option value="Beginners Web">Beginners Web </option>
+                    <option value="Advanced Web">Advanced Web</option>
+                    <option value="Beginners Python">Beginners Python </option>
+                    <option value="Advanced Python">Advanced Python </option>
+                    <option value="Beginners Cybersecurity">Beginners Cybersecurity </option>
+                    <option value="Advanced Cybersecurity">Advanced Cybersecurity </option>
+                </select>
+                <br><br>
+                <label for="preferredSchedule" required>Choose Your Preferred Schedule:</label><br><br>
+
+                <input type="radio" id="preferredSchedule" name="preferredSchedule" value="preferredSchedule">
+                <label for="schedule">Morning (8-10am)</label><br><br>
+
+                <input type="radio" id="preferredSchedule" name="preferredSchedule" value="preferredSchedule">
+                <label for="schedule">Afternoon (11-3pm)</label><br><br>
+
+                <input type="radio" id="preferredSchedule" name="preferredSchedule" value="preferredSchedule">
+                <label for="schedule">Evening (4-10pm)</label><br><br>
+
+                <input type="radio" id="preferredSchedule" name="preferredSchedule" value="preferredSchedule">
+                <label for="schedule">Night (11-7am)</label><br>
+                <hr>
+                <hr>
+                <p>Select All That Apply </p>
+
+                <input type="checkbox" id="Laptopp" name="Laptop" value="Laptop">
+                <label for="preferredSchedule">Laptop</label><br>
+
+                <div style="color: blue;">
+                    <input type="checkbox" id="Chargerr" name="Charger" value="Charger">
+                    <label for="preferredSchedule">Charger</label><br>
+                </div>
+
+                <div style="color: blue;">
+                    <input type="checkbox" id="Materials" name="Materials" value="Materials">
+                    <label for="preferredSchedule">Materials</label><br>
+                </div>
+
+                <input type="checkbox" id="Waterr" name="Water" value="Water">
+                <label for="preferredSchedule">Water</label><br>
+
+                <input type="checkbox" id="Feedingg" name="Feeding" value="Feeding">
+                <label for="preferredSchedule">Feeding</label><br>
+
+                <input type="checkbox" id="Accommodationn" name="Accommodation" value="Accommodation">
+                <label for="preferredSchedule">Accommodation</label><br>
+
+                <input type="checkbox" id="Transportationn" name="Transportation" value="Transportation">
+                <label for="preferredSchedule">Transportation</label><br>
+
+                <input type="checkbox" id="Internet Connectionn" name="Internet Connection" value="Internet Connection">
+                <label for="preferredSchedule">Internet Connection</label><br>
+            </fieldset>
+            <fieldset>
+                <legend required>Additional Information</legend>
+                <legend id="Additionall" class="Additional Information"></legend>
+                <p>Please Type The Following Information Or Upload From Your System</p>
+
+                <label for="Your Motivation">Your Motivation</label><br>
+                <textarea id="Your Motivation" Name="YourMotivation" placeholder="Max 250 Words" rows="5"
+                    column="10"></textarea><br>
+                <p>Or Upload From Your System</p>
+                <input type="file" id="picturee" name="picture" class="picture"><br><br>
+
+                <label for="Statement Of Purpose">Your Statement Of Purpose</label><br>
+                <textarea id="Statement Of Purpose" Name="Statement Of Purpose" placeholder="Max 250 Words" rows="5"
+                    column="10"></textarea><br>
+                <p>Or Upload From Your System</p>
+                <input type="file" id="picturee" name="picture" class="picture"><br><br>
+
+                <label for="Your Manifesto">Your Manifesto</label><br>
+                <textarea id="Your Manifesto" Name="YourManifesto" placeholder="Max 100 words" rows="5"
+                    column="10"></textarea><br>
+                <p>Or Upload From Your System</p>
+                <input type="file" id="picturee" Name="picture" class="picture">
+            </fieldset>
+
+            <fieldset>
+                <legend required>Parents Or Guardians</legend>
+                <legend id="P" class="Parents"></legend>
+                <p>Please Fill Out The Following</p>
+                <label for="Name">Name</label>
+                <input type="Text" id="Name" class="Name" placeholder="Parents Name"><br><br>
+
+                <label for="Age">Age</label>
+                <input type="text" id="Age" class="Age" placeholder="Parents Age"><br><br>
+
+                <label for="Name">Gender</label>
+                <input type="Text" id="Gender" class="Gender" placeholder="Gender">
+
+            </fieldset>
+
+            <fieldset>
+                <legend required>References </legend>
+                <legend id="Ref" class="Reference"></legend>
+                <ol>
+                    <p>Please Fill Out The Following</p>
+                    <li>Reference 1</li>
+
+                    <ul>
+
+                        <li><label for="Name">Referee 1 Name</label>
+                            <input type="text" id="Nam" class="Name" placeholder="Eg Fola">
+                        </li><br>
+
+                        <li>Referee 1 Occupation
+                            <input type="text" id="Occupatio" class="Occupation" placeholder="Eg Banker">
+                        </li><br>
+
+                        <li>Referee 1 Emailaddress
+                            <input type="text" id="Emai" class="Email" placeholder="Eg XYZ@Email.com">
+                        </li><br>
+
+                        <li>Referee 1 Phone No
+                            <input type="text" id="Phon NO" class="Phone NO" placeholder="Eg 07035467282">
+                        </li><br>
+
+
+                        <legend>
+                            <li>Relationship With Student</li>
+                        </legend>
+                        <select id="Relationship With Student" Name="Relationship With Student"
+                            Class="Relationship With Student">
+                            <option value="Relationship To Student">Empty</option>
+                            <option value="Uncle">Uncle</option>
+                            <option value="Aunty">Aunty</option>
+                            <option value="Sister">Sister</option>
+                            <option value="Nephew">Nephew</option>
+                            <option value="Cousin">Cousin
+                        </select>
+                        </select><br><br>
+
+                        <label for="Upload">
+                            <li>Upload Reference
+                        </label>
+                        <input type="file" id="Pictur" class="Picture"></li> <br>
+                    </ul>
+
+                    <li>Reference 2</li>
+                    <ul>
+                        <li>Referee 2 Name
+                            <input type="text" id="Nam" class="Name" placeholder="Eg Tolu">
+                        </li><Br>
+
+                        <label>
+                            <li>Referee 2 Occupation
+                        </label>
+                        <input type="text" id="Occupatio" class="Occupation" placeholder="Eg Banker"></li><br>
+
+                        <li>Referee 2 Email Address
+                            <input type="text" id="Emai" class="Email" placeholder="Eg XYZ@Email.com">
+                        </li><br>
+
+                        <li>Referee 2 Phone No
+                            <input type="text" id="Phone N" class="Phone NO" placeholder="Eg Phone NO">
+                        </li><br>
+
+                        <legend>
+                            <li>Relationship With Student</li>
+                        </legend>
+                        <select id="Relationship With Student" Name="Relationship With Student"
+                            Class="Relationship With Student">
+                            <option value="Relationship To Student">Empty</option>
+                            <option value="Uncle">Uncle</option>
+                            <option value="Aunty">Aunty</option>
+                            <option value="Sister">Sister</option>
+                            <option value="Nephew">Nephew</option>
+                            <option value="Cousin">Cousin
+                        </select>
+                        </select><br><br>
+
+                        <label for="Upload">
+                            <li>Upload Reference
+                        </label>
+                        <input type="file" id="Pictur" name="Picture"></li><br>
+                    </ul>
+
+
+
+                    <li>Reference 3</li>
+                    <ul>
+                        <li><label for="Name">Referee 3 Name</label>
+                            <input type="text" id="Nam" class="Name" placeholder="Eg Folu">
+                        </li><br>
+
+                        <li>Referee 3 Occupation
+                            <input type="text" id="Occupatio" class="Occupation" placeholder="Eg Banker">
+                        </li><br>
+
+                        <li>Referee 3 Email Address
+                            <input type="text" id="Emai" class="Email" placeholder="Eg XYZ@Email.com">
+                        </li><br>
+
+                        <li>Referee 3 Phone No
+                            <input type="text" id="Phone N" class="Phone NO" placeholder="Eg Phone NO">
+                        </li><br>
+
+                        <li>
+                            <legend>Relationship With Student</legend>
+                        </li>
+                        <select id="Relationship With Studentt" Name="Relationship With Student" Class="Relationship">
+                            <option value="Relationship To Student">Empty</option>
+                            <option value="Uncle">Uncle</option>
+                            <option value="Aunty">Aunty</option>
+                            <option value="Sister">Sister</option>
+                            <option value="Nephew">Nephew</option>
+                            <option value="Cousin">Cousin
+                        </select>
+
+
+                        <label for="Upload">
+                            <li>Upload Reference
+                        </label>
+                        <input type="file" id="Pictur" name="Picture"></li>
+                    </ul>
+                </ol>
+            </fieldset>
+
+            <fieldset>
+                <legend required>Payment Details</legend>
+                <legend id="Payment" class="Payments"></legend>
+                <p>Kindly Note 200K Will Be Removed Over The Period Of Three Months</p>
+                <p>Please Accept</p>
+                <label for="Agreement">Yes</label>
+                <input type="radio" id="Agreemen" class="Agreement" name="Agreement">
+
+                <p>Choose Your Bank</p>
+                <select id="Choose Your Mode Of Payment" Name="Choose Your Mode Of Payment" class="Choose">
+                    <option value="Choose Your Mode Of Payment">Empty</option>
+                    <option value="GT Bank">GT Bank</option>
+                    <option value="First Bank">First Bank</option>
+                    <option value="Eco Bank">Eco Bank</option>
+                    <option value="UBA Bank">UBA Bank</option>
+                    <option value="Paystacks">Paystacks</option>
+                </select>
+                <p>Choose Mode Of Payment</p>
+
+                <input type="radio" id="Cas" name="Cash">
+                <label for="Cash">Cash</label><br>
+
+                <input type="radio" id="Cas" name="Cash">
+                <label for="Cash"></label><a href="Payment File.html">Card</a><br>
+
+                <input type="radio" id="Cas" name="Cash">
+                <label for="Cash"></label><a href="Transfer file.html">Transfer</a><br><br>
+
+                <fieldset>
+                    <legend>ID Documents</legend>
+                    <label for="Valid ID">Select Means Of Identification</label><br>
+
+                    <input type="checkbox" id="Valid I" name="Valid ID" class="Valid ID">
+                    <label for="Valid ID">ID Card</label><br>
+
+                    <input type="checkbox" id="Valid I" name="Valid ID" class="Valid ID">
+                    <label for="Valid ID">Driver License</label><br>
+
+                    <input type="checkbox" id="Valid I" name="Valid ID" class="Valid ID">
+                    <label for="Valid ID">Passport</label><br><br>
+
+                    <input type="file" id="pictur" name="picture">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Terms And Conditions</legend>
+                    <legend id="Terms" class="T&C"></legend>
+
+                    <P>
+                        <str>Please Ensure That All Information Are Filled Correctly Cause You Can Only Submit Once
+                        </str>
+                    </P>
+                    <input type="checkbox" id="Terms And Conditionss" name="Terms And Conditions"
+                        class="Terms And Conditions">
+                    <label for="Terms and Conditions">Terms And Conditions</label><br><br>
+
+                    <a href="T&C APPLY.html">Link For Terms And Conditions</a>
+                </fieldset>
+    </form>
+    <div id="section-actions" class="section sections--actions">
+        <input type="submit" id="submit" value="Register">
+        <input type="Reset" id="Resett" value="Reset">
+    </div>
+    </div>
+</body>
+
+</html>
