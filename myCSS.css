@@ -1,0 +1,124 @@
+body  {
+    background-color: whitesmoke;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+h2 {
+    color: #2b4a6f;
+    font-size: 60px;
+}
+h2 {
+    text-align: center;
+    line-height: 1.5;
+}
+
+form {
+background-color: #ffff;
+padding: 20px;
+border-radius: 40px;
+max-width: 900px;
+margin: 200px;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 30px;
+    border-radius: 5px;
+}
+/*legends*/
+legend{
+    font-weight: bold;
+    color: #2b4a6f;
+}
+
+label {
+    font-weight: 500;
+    color: #300;
+}
+
+input[type = "text"],
+input[type = "email"],
+input[type = "number"],
+input[type = "file"],
+input[type = "Register"]
+input[type = "Reset"]
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+input[type = "radio"],
+input[type = "checkbox"]{
+    margin-right: 5px;
+}
+
+input[type = "submit"]{
+    background-color: #2b4a6f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 2px;
+    display: inline-block;
+    
+}
+input[type = "Reset"]{
+    background-color: #2b4a6f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 550px;
+    display: inline-block;
+    
+}
+li {
+    margin: 20px;
+}
+select {
+    width: 102.5%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+select.Relationship{
+    width: 100.5%;
+    padding: 8px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+.container {
+    background-color: #CFA5A0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+    padding: 20px;
+    height: 50px;
+}
+.container > div {
+    background: #B9AEDC;
+    padding: 15px;
+    border-radius: 10px;
+}
+div.Reference {
+    height: 35px;
+    width: 80px;
+}

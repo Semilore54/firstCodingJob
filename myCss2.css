@@ -1,0 +1,97 @@
+body {
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 2;
+    padding: 30px;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 35px;
+    text-align: center;
+    list-style: lower-greek;
+    line-height: 2;
+}
+fieldset {
+    margin-bottom: 15px;
+    border-radius: 8px;
+    padding: 30px;
+    background-color:  #eaf4fb;
+}
+legend {
+    font-weight: bolder;
+    color: #2980b9;
+}
+table {
+    font-size: 40px;
+    border-radius: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    background-color:  #2980b9;
+    color: white;
+}
+caption {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+h3 {
+    color: #2c3e50;
+    font-size: 35px;
+    text-align: center;
+    list-style: lower-alpha;
+    line-height: 3;
+}
+h2 {
+    color: #2c3e50;
+    font-size: 35px;
+    text-align: center;
+    list-style: lower-alpha;
+    line-height: 3;
+}
+li {
+    color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+h4 {
+    font-style: italic;
+    color: #800000;
+    font-size: larger;
+}
+p {
+    font-size: xx-large;
+    padding: 4px;
+    width: 100%;
+}
+img {
+    width: 50%;
+}
+input[type = "text"]{
+    width: 30000%;
+    margin: 500px;
+}
+aside {
+    background-color: #dfeffc;
+}
+
+
+form {
+    border-radius: 70px;
+}
+nav {
+    background-color:bisque;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-size: larger;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    height: 50px
+}
+    
